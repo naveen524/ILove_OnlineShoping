@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [ILove_OnlineShoping]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Flipkart Test1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.ILove_OnlineShoping.testcases.TestCase_TC_002">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="Test_Run"/>
+        </methods>
+      </class> <!-- com.ILove_OnlineShoping.testcases.TestCase_TC_002 -->
+    </classes>
+  </test> <!-- Flipkart Test1(failed) -->
+  <test thread-count="1" parallel="tests" name="Flipkart Test2(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.ILove_OnlineShoping.testcases.TestCase_TC_002">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="Test_Run"/>
+        </methods>
+      </class> <!-- com.ILove_OnlineShoping.testcases.TestCase_TC_002 -->
+    </classes>
+  </test> <!-- Flipkart Test2(failed) -->
+</suite> <!-- Failed suite [ILove_OnlineShoping] -->

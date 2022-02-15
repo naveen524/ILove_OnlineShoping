@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ILove_OnlineShoping" parallel="tests" thread-count="1">	
+	<test name="Flipkart Test1">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.ILove_OnlineShoping.testcases.TestCase_TC_002" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Flipkart Test2">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.ILove_OnlineShoping.testcases.TestCase_TC_002" />
+		</classes>
+	</test> <!-- Test -->	
+
+</suite> <!-- Suite -->
